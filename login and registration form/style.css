@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: darksalmon;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    min-height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.firstbox {
+    width: 40%;
+    background-color: white;
+    padding-left: 1%;
+    padding-top: 3%;
+}
+
+.secondbox {
+    width: 40%;
+    background: url(./klarket.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.firstbox h2 {
+    font-size: 24px;
+    color: darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3%;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid darkslategray;
+    margin-top: 3%;
+}
+
+hr {
+    width: 25px;
+    color: black;
+    border-bottom: 2px solid darkslategray;
+}
+
+::placeholder {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    margin-top: 3%;
+    font-size: 18px;
+    color: dodgerblue;
+    letter-spacing: 1.2px;
+    word-spacing: 1.2px;
+    margin-bottom: 5%;
+}
+
+button {
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    background: salmon;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.firstbox p {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.secondbox h2 {
+    padding-top: 39%;
+    font-size: 43px;
+    color: lightsteelblue;
+}
+
+.secondbox p {
+    letter-spacing: 1.5px;
+    padding-top: 3%;
+    font-size: 23px;
+    word-spacing: 1.5px;
+    color: lightsteelblue;
+    font-weight: bolder;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+}
